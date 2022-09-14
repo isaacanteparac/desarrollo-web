@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.blockAmamrillo {
+  float: left;
+  display: block;
+  background-color: yellow;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.blockAzul {
+  display: block;
+  float: left;
+  background-color: blue;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.blockNaranja {
+  clear: both;
+  background-color: orange;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.blockVioleta {
+  display: block;
+  background-color: violet;
+  float: left;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+}
