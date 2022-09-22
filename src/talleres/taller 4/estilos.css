@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+.container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100vh;
+}
+
+.cuadro{
+    display: block;
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
+
+.cuadroMaestro1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: auto;
+}
+
+.cuadroMaestro2{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: auto;
+}
+
+
+.cuadroMaestro3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: auto;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.naranja{
+    background-color: orange;
+}
+
+.violeta{
+    background-color: violet;
+}
