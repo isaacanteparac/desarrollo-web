@@ -12,7 +12,7 @@ function addBox() {
     box.className += " colorBox2";
   } else {
     box.className += " colorBox3";
-    countColor = 0;
+    countColor = 0; 
   }
   countColor += 1;
   var texto = document.createTextNode(count);
