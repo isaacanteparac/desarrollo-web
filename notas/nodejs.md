@@ -56,3 +56,11 @@ promise.then(function(result) {
 });
 
 ```
+### xq usar una ASINC/AWAIT?
+- se pone en la funcion async y el await en la funcio en ejecutar
+
+```JavaScript
+    async functio gola(){
+        return await hola()
+    }
+```
