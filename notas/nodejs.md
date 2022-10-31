@@ -26,3 +26,33 @@ es un entorno de ejecucion de javascrip del navegador, se creo en el 2009
 #### event loop
 - se encarga de resolver los eventos ultra rapidos que llegan desde el event queue, envia el evento a **thread pool**
 
+### xq usar una promesa?
+- tener una solucion o pasa un error
+- si sale un error pasa algo catch()
+- si se soluciona se ejecuta una promesa then()
+    - se puede seguir invocando promesas infinitamente, dentro del resolver se puede enviar un parametro
+    - reject o error
+- promesas encadenadas
+
+```JavaScript
+//PROMESA
+let promise = new Promise(function(resolve, reject) {
+  setTimeout(() => resolve(1), 1000);
+});
+
+promise.then(function(result) {
+  alert(result); // 1
+  return result * 2;
+});
+
+promise.then(function(result) {
+  alert(result); // 1
+  return result * 2;
+});
+
+promise.then(function(result) {
+  alert(result); // 1
+  return result * 2;
+});
+
+```
