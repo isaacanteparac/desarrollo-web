@@ -1,0 +1,7 @@
+La entrega se realizó correctamente.
+Curso: 2022_199_UCOM351_81, DESARROLLO DE APLICACIONES WEB
+Actividad: [U3_Taller_01]: Asincronismo mediante Callbacks
+
+Fecha de entrega: 2/11/22 18:33
+Remitente: ISAAC DAVID ANTEPARA CEREZO
+Número de confirmación: 7876fab461c1458fab57705ed4039c1f

@@ -1,0 +1,54 @@
+.boxSmall {
+    border-radius: 5px;
+    padding: 4px;
+    background-color: #343434;
+    color: #CDCDCD;
+    font-family: "Segoe UI";
+  }
+
+  body{
+    background-color: #1B1B1B;
+  }
+
+  hr,
+  h3 {
+    clear: both;
+  }
+
+  .boxInfo {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    gap: 30px;
+    width: auto;
+  }
+
+  img {
+    height: 200px;
+    width: 100%;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+
+  .title {
+    font-weight: 500;
+  }
+
+  .btnAdd {
+    border: none;
+    border-radius: 10px;
+    position: fixed;
+    background-color: rgb(136, 1, 254);
+    color: #fff;
+    font-size: 18px;
+    font-family: "Segoe UI";
+    height: 40px;
+    font-weight: 500;
+    text-transform: capitalize;
+    left: 90%;
+    top: 90%;
+  }
+  .btnAdd:active {
+    background-color: rgb(90, 3, 165);
+  }

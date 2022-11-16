@@ -1,0 +1,42 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <script src="./index.js"></script>
+    <title>Document</title>
+  </head>
+  <body onload="dataApi()">
+    <div class="containerBody">
+      <div class="boxForm">
+        <form action="http://localhost:6660/post" method="POST">
+          <div class="inputLabel">
+            <label for="">nombre</label>
+            <input name="name" type="text" />
+          </div>
+          <div class="inputLabel">
+            <label for="">apellido</label>
+            <input name="lastname" type="text" />
+          </div>
+          <div class="inputLabel">
+            <label for="">email</label>
+            <input name="email" type="text" />
+          </div>
+          <div class="boxBtn">
+            <button type="submit">enviar</button>
+          </div>
+        </form>
+      </div>
+      <div class="boxTable">
+        <table id="idTable" >
+          <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
