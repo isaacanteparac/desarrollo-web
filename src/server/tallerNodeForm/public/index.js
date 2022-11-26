@@ -1,4 +1,3 @@
-
 function dataApi() {
   const req = new XMLHttpRequest();
 
@@ -7,7 +6,8 @@ function dataApi() {
   req.onload = async () => {
     if (req.status === 200) {
       const data = await JSON.parse(req.responseText);
-      return itemTable(data);
+      console.trace(data);
+      return itemTable(data.body);
     } else {
       const error = new Error(url);
       console.log(error + "\nStatus code:" + req.status);
@@ -18,8 +18,6 @@ function dataApi() {
 
 function itemTable(data_) {
   const table = document.getElementById("idTable");
-  console.log(data_);
-
   data_.map((item) => {
     const boxItem = document.createElement("tr");
     boxItem.className += "item";

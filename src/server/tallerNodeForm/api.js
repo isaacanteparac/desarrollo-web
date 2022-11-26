@@ -3,6 +3,7 @@ const morgan = require("morgan");
 
 const router = express.Router();
 const app = express();
+const response = require("./network/response");
 
 var data = [];
 
@@ -13,7 +14,7 @@ app.use(router);
 app.use(morgan("dev"));
 
 router.get("/get-data", function (req, res) {
-  res.send(data);
+  response.success(req, res, data);
 });
 
 router.post("/post", function (req, res) {

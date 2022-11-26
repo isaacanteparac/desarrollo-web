@@ -1,0 +1,3 @@
+- web sockes
+- caso de estudio
+- nosql(mongodb)
