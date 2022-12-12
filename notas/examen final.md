@@ -163,30 +163,33 @@
     - este semaforo tiene valores negativos(-), positivos(+) y neutros (0)
     - cuando este semaforo tiene valores (count>=0) no pasa a la cola de bloqueados osea pasa a signal
     - si tiene un valor (count < 0) pasa a la cola de bloqueados q seria el wait
-    
 
 # Monitores
 
 - **q es?**
-    - los minitores son estructuras de un lenguaje de programcio q ofrecen una funcionalidad equivalente a la de lo semaforos, pero son mas faciles de controlar
-    - son de alto nivel y se prestan a ser implemenrados en un sistema orientado a objetos
+  - los minitores son estructuras de un lenguaje de programcio q ofrecen una funcionalidad equivalente a la de lo semaforos, pero son mas faciles de controlar
+  - son de alto nivel y se prestan a ser implemenrados en un sistema orientado a objetos
 - **caracteristicas**
-    - un monitor es un tipo de objeto q tiene la caracteristicas de q solo un proceso puede estar ejecutando cualquira de sus metodos
-    - otro procesos q haigan llamado al monitor quedaran bloqueados mientras espera q el monitor este disponible
-    - el monitor esta disponible luego q el proceso q lo estaba ustilizando termine
+  - un monitor es un tipo de objeto q tiene la caracteristicas de q solo un proceso puede estar ejecutando cualquira de sus metodos
+  - otro procesos q haigan llamado al monitor quedaran bloqueados mientras espera q el monitor este disponible
+  - el monitor esta disponible luego q el proceso q lo estaba ustilizando termine
 - **cola**
-    - csignal
-        - reanuda la ejecucion de un proceso q suspenfdio en cwait
-    - cwait
-        - suspende la ejecucion de un proceso
+  - csignal
+    - reanuda la ejecucion de un proceso q suspenfdio en cwait
+  - cwait
+    - suspende la ejecucion de un proceso
 
 # algoritmo de panaderia
+
 - cuando uno quiere entrar a la seccion critica debe coger un turno todos los procesos q quieran entrar
-- el turno menor pasa a la seccion critica 
+- el turno menor pasa a la seccion critica
 - si ese numero es diferente de 0 quiere entrar a la seccion critica, si es 0 no quiere entrar
 - cuando uno va a tomar un numero pone su vandera en verdadero
 - va a tomar todos los numeros q estan en el arreglo de numeros q son los numero ff
 - se busca el mas alto, va a tomar ese numero y le va a sumar uno
 - en el cliclo for se va a recorrer todos los numero voletos
-- si se encuentra uno q esta seleccionando se va a esperar mientras esa vandera de se
-image.pngimage.png
+- si se encuentra uno q esta seleccionando se va a esperar mientras esa vandera de selecionando este enn verdadero
+- si un proceso j es diferente de 0 y si su numero es menor q i
+- si los dos tiene el mismo voleto se desenpata x el numero del id
+
+- https://www.youtube.com/watch?v=F0yxspoZkb8
