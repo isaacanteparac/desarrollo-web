@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .containerBody {
+    width: 70%;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 5rem;
+    gap: 30px;
+  }
+  
+  .boxForm {
+    background-color: transparent;
+    width: 268px;
+  }
+  
+  .boxForm form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #999;
+    overflow: hidden;
+    padding: 15px 10px;
+    border: 1px solid #999;
+  }
+  
+  .inputLabel {
+    background-color: transparent;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-block: 10px;
+  }
+  
+  .inputLabel label {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: #0a0a0a;
+    margin-bottom: 5px;
+  }
+  
+  .inputLabel input {
+    width: 100%;
+    height: 2rem;
+    font-size: 1.2rem;
+    color: #000;
+    border-radius: 5px;
+    padding-inline: 5px;
+    border: 2px solid #006eff;
+  }
+  
+  .boxBtn {
+    width: 100%;
+    height: auto;
+    padding-block: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .boxBtn button {
+    height: 35px;
+    width: 90%;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    border-radius: 10px;
+    background-color: #006eff;
+    color: #fff;
+    border: none;
+  }
+  
+  .boxBtn button:hover {
+    border: 2px solid gold;
+  }
+  
+  .boxTable {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .boxTable table {
+    border-radius: 10px;
+    border: 1px solid #999;
+    background-color: #fff;
+    padding: 5px;
+    border-collapse: separate;
+    border-spacing: 10px;
+    min-width: 268px;
+    font-size: 1.1rem;
+  }
+  
+  .boxTable th {
+    color: #006eff;
+    text-align: center;
+    border-bottom: 2px solid gold;
+  }
+  
+  .boxTable td {
+    text-align: center;
+    padding-inline: 5px;
+    border-radius: 5px;
+  }
+  
+  .item:hover {
+    background-color: #bfb8b880;
+  }
+  
